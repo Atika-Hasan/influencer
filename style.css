@@ -176,6 +176,36 @@ footer small {
             margin-left: 26px;
         }
     }
+    .buy-now-button{
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+    }    
+    .containers{
+        margin-top: 150px;
+        margin-bottom: 100px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+    }
+    .orange-bg{
+        background-color:#0a0826;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 500px;
+    }
+    #subscribe{
+        height: 300px;
+    }
+    #subscribe h6{
+        color: gray;
+    }
+        
     @media only screen and (max-width: 688px) {
 
         .menu-bar {
